@@ -1,0 +1,24 @@
+*.log
+*log*.txt
+*.jbl
+*.jbl*
+*.png
+
+*.sdf
+model.*
+
+*.svg
+*.pdb
+
+<<<<<<< HEAD
+*.csv
+*.pyc
+*.txt
+*.fa
+
+*checkpoint
+
+*.tar.gz
+
+=======
+>>>>>>> 18c1fe817171141571504394ae5c0d5237e3d271
