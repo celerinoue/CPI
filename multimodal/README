@@ -1,0 +1,10 @@
+kgcn-chem --assay_dir ChEMBL_dragon/gpcr -a 50 --assay_num_limit 100 --output multimodal.jbl --multimodal >& multimodal.log
+
+
+kgcn train_cv --config config_mm_gin_domain.json --gpu 0 >& log_gin_domain.txt
+kgcn train_cv --config config_mm_gcn.json --gpu 0 >& log_gcn.txt
+
+kgcn-chem --assay_dir ChEMBL_viz/gpcr_GCN -a 50 --output multimodal_viz.jbl --multimodal --assay_domain_name_clone multimodal.jbl --max_len_seq 1212 --no_pseudo_negative >& log_dataset_viz.txt
+
+kgcn visualize --config config/config_mm_gin_viz.json
+
