@@ -1,0 +1,34 @@
+{
+    "model.py":             "model_py.class_cnn2:MultimodalNetwork",
+    "save_result_test":     "result/result_class5_cnn2_lr0001/test.csv",
+    "save_result_valid":    "result/result_class5_cnn2_lr0001/valid.csv",
+    "save_result_train":    "result/result_class5_cnn2_lr0001/train.csv",
+    "save_result_cv":       "result/result_class5_cnn2_lr0001/cv.json",
+    "save_info_test":       "result/result_class5_cnn2_lr0001/info_test.json",
+    "save_info_valid":      "result/result_class5_cnn2_lr0001/info_valid.json",
+    "save_info_train":      "result/result_class5_cnn2_lr0001/info_train.json",
+    "save_info_cv":         "result/result_class5_cnn2_lr0001/info_cv.json",
+    "plot_path":            "result/result_class5_cnn2_lr0001/",
+    "visualize_path":       "viz/viz_class5_cnn2_lr0001/",
+    "load_model":           "model/model_class5_cnn2_lr0001/model.sample_ckpt",
+    "save_model":           "model/model_class5_cnn2_lr0001/model.sample_ckpt",
+    "save_model_path":      "model/model_class5_cnn2_lr0001/",
+    "shuffle_data":         true,
+    "make_plot":            true,
+    "normalize_adj_flag":   true,
+    "validation_data_rate": 0.3,
+    "epoch":                100,
+    "batch_size":           32,
+    "save_interval":        50,
+    "learning_rate":        0.0001,
+    "with_feature":         true,
+    "with_node_embedding":  false,
+    "embedding_dim":        25,
+    "patience":             0,
+    "order":                1,
+    "k-fold_num":           2,
+    "dataset":              "data/sample_sequence_GPCRpred_Class.jbl"
+
+
+
+}
